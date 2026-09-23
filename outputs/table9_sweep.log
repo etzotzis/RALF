@@ -3,61 +3,47 @@ Data loaded! Shape: (73100, 15)
 
 
 === Sweeping w_stockout:w_overstock ratio ===
-  [stockout_mult=1:1] seed=42 -> reward=-13.30 profit=281846 (55.9s)
-  [stockout_mult=1:1] seed=1 -> reward=-40.51 profit=175128 (56.1s)
-  [stockout_mult=1:1] seed=2 -> reward=-22.67 profit=285972 (56.1s)
-  [stockout_mult=1:1] seed=3 -> reward=-21.42 profit=329579 (54.7s)
-  [stockout_mult=2.5:1] seed=42 -> reward=-13.30 profit=281846 (61.3s)
-  [stockout_mult=2.5:1] seed=1 -> reward=-40.51 profit=175128 (48.9s)
-  [stockout_mult=2.5:1] seed=2 -> reward=-22.68 profit=285972 (49.8s)
-  [stockout_mult=2.5:1] seed=3 -> reward=-21.42 profit=329579 (50.0s)
-  [stockout_mult=5:1 (default)] seed=42 -> reward=-13.31 profit=281846 (49.3s)
-  [stockout_mult=5:1 (default)] seed=1 -> reward=-40.47 profit=175128 (51.7s)
-  [stockout_mult=5:1 (default)] seed=2 -> reward=-22.69 profit=285972 (51.6s)
-  [stockout_mult=5:1 (default)] seed=3 -> reward=-21.68 profit=329579 (52.1s)
-  [stockout_mult=10:1] seed=42 -> reward=-13.32 profit=281846 (51.5s)
-  [stockout_mult=10:1] seed=1 -> reward=-40.47 profit=175128 (50.8s)
-  [stockout_mult=10:1] seed=2 -> reward=-22.72 profit=285972 (49.7s)
-  [stockout_mult=10:1] seed=3 -> reward=-21.69 profit=329579 (51.4s)
+  [stockout_mult=1:1] seed=42 -> reward=13.30 profit=281846 (55.9s)
+  [stockout_mult=1:1] seed=1 -> reward=40.51 profit=175128 (56.1s)
+  [stockout_mult=1:1] seed=2 -> reward=22.67 profit=285972 (56.1s)
+  [stockout_mult=1:1] seed=3 -> reward=21.42 profit=329579 (54.7s)
+  [stockout_mult=2.5:1] seed=42 -> reward=13.30 profit=281846 (61.3s)
+  [stockout_mult=2.5:1] seed=1 -> reward=40.51 profit=175128 (48.9s)
+  [stockout_mult=2.5:1] seed=2 -> reward=22.68 profit=285972 (49.8s)
+  [stockout_mult=2.5:1] seed=3 -> reward=21.42 profit=329579 (50.0s)
+  [stockout_mult=5:1 (default)] seed=42 -> reward=13.31 profit=281846 (49.3s)
+  [stockout_mult=5:1 (default)] seed=1 -> reward=40.47 profit=175128 (51.7s)
+  [stockout_mult=5:1 (default)] seed=2 -> reward=22.69 profit=285972 (51.6s)
+  [stockout_mult=5:1 (default)] seed=3 -> reward=21.68 profit=329579 (52.1s)
+  [stockout_mult=10:1] seed=42 -> reward=13.32 profit=281846 (51.5s)
+  [stockout_mult=10:1] seed=1 -> reward=40.47 profit=175128 (50.8s)
+  [stockout_mult=10:1] seed=2 -> reward=22.72 profit=285972 (49.7s)
+  [stockout_mult=10:1] seed=3 -> reward=21.69 profit=329579 (51.4s)
 Saved: outputs/table9_ratio_sweep.csv
 
 === Sweeping gamma (paper's lambda_forecast / discount factor) ===
-  [gamma=0.90] seed=42 -> reward=-21.77 profit=281847 (54.5s)
-  [gamma=0.90] seed=1 -> reward=-49.11 profit=175128 (51.9s)
-  [gamma=0.90] seed=2 -> reward=-26.39 profit=285975 (50.7s)
-  [gamma=0.90] seed=3 -> reward=-25.67 profit=329580 (51.1s)
-  [gamma=0.95] seed=42 -> reward=-19.52 profit=281844 (52.1s)
-  [gamma=0.95] seed=1 -> reward=-48.62 profit=175128 (51.5s)
-  [gamma=0.95] seed=2 -> reward=-27.59 profit=285970 (50.0s)
-  [gamma=0.95] seed=3 -> reward=-25.30 profit=329579 (49.9s)
-  [gamma=0.97] seed=42 -> reward=-15.58 profit=281847 (51.1s)
-  [gamma=0.97] seed=1 -> reward=-44.89 profit=175128 (50.0s)
-  [gamma=0.97] seed=2 -> reward=-26.14 profit=285970 (51.0s)
-  [gamma=0.97] seed=3 -> reward=-25.36 profit=329580 (50.8s)
+  [gamma=0.90] seed=42 -> reward=21.77 profit=281847 (54.5s)
+  [gamma=0.90] seed=1 -> reward=49.11 profit=175128 (51.9s)
+  [gamma=0.90] seed=2 -> reward=26.39 profit=285975 (50.7s)
+  [gamma=0.90] seed=3 -> reward=25.67 profit=329580 (51.1s)
+  [gamma=0.95] seed=42 -> reward=19.52 profit=281844 (52.1s)
+  [gamma=0.95] seed=1 -> reward=48.62 profit=175128 (51.5s)
+  [gamma=0.95] seed=2 -> reward=27.59 profit=285970 (50.0s)
+  [gamma=0.95] seed=3 -> reward=25.30 profit=329579 (49.9s)
+  [gamma=0.97] seed=42 -> reward=15.58 profit=281847 (51.1s)
+  [gamma=0.97] seed=1 -> reward=44.89 profit=175128 (50.0s)
+  [gamma=0.97] seed=2 -> reward=26.14 profit=285970 (51.0s)
+  [gamma=0.97] seed=3 -> reward=25.36 profit=329580 (50.8s)
   [gamma=0.99 (default)] seed=42 -> reused from cache
   [gamma=0.99 (default)] seed=1 -> reused from cache
   [gamma=0.99 (default)] seed=2 -> reused from cache
   [gamma=0.99 (default)] seed=3 -> reused from cache
-  [gamma=0.995] seed=42 -> reward=-12.68 profit=281846 (50.7s)
-  [gamma=0.995] seed=1 -> reward=-39.39 profit=175128 (49.8s)
-  [gamma=0.995] seed=2 -> reward=-22.01 profit=285974 (49.5s)
-  [gamma=0.995] seed=3 -> reward=-20.76 profit=329579 (49.6s)
+  [gamma=0.995] seed=42 -> reward=12.68 profit=281846 (50.7s)
+  [gamma=0.995] seed=1 -> reward=39.39 profit=175128 (49.8s)
+  [gamma=0.995] seed=2 -> reward=22.01 profit=285974 (49.5s)
+  [gamma=0.995] seed=3 -> reward=20.76 profit=329579 (49.6s)
 Saved: outputs/table9_gamma_sweep.csv
 Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
 Saved: outputs/table9_hyperparameter_sensitivity.png
 Saved: outputs/table9_summary.md
 
-================================================================================
-TABLE 9 SWEEP COMPLETE
-================================================================================
-| Hyperparameter | Value | System Reward |
-|---|---|---|
-| $w_{stockout}:w_{overstock}$ | 1:1 | -24.5 +/- 9.9 |
-| $w_{stockout}:w_{overstock}$ | 2.5:1 | -24.5 +/- 9.9 |
-| $w_{stockout}:w_{overstock}$ | 5:1 (default) | -24.5 +/- 9.9 |
-| $w_{stockout}:w_{overstock}$ | 10:1 | -24.5 +/- 9.9 |
-| $\gamma$ | 0.90 | -30.7 +/- 10.8 |
-| $\gamma$ | 0.95 | -30.3 +/- 11.0 |
-| $\gamma$ | 0.97 | -28.0 +/- 10.6 |
-| $\gamma$ | 0.99 (default) | -24.5 +/- 9.9 |
-| $\gamma$ | 0.995 | -23.7 +/- 9.7 |
