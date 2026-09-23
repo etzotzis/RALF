@@ -3,28 +3,28 @@ Data loaded! Shape: (73100, 15)
 
 
 === RALF ===
-  seed=42 -> Fill Rate=99.8%  Turnover=1.70  Profit=281846  Overstock=90.4%  Stockout=0.5%  (51.1s)
-  seed=1 -> Fill Rate=100.0%  Turnover=1.48  Profit=175128  Overstock=95.1%  Stockout=0.0%  (50.8s)
-  seed=2 -> Fill Rate=99.7%  Turnover=1.62  Profit=285972  Overstock=93.0%  Stockout=0.7%  (50.7s)
-  seed=3 -> Fill Rate=100.0%  Turnover=1.54  Profit=329579  Overstock=93.3%  Stockout=0.1%  (51.9s)
+  seed=42 -> Fill Rate=99.9%  Turnover=1.89  Profit=361846  Overstock=9.4%  Stockout=0.5%  (51.1s)
+  seed=1 -> Fill Rate=100.0%  Turnover=1.48  Profit=275128  Overstock=9.1%  Stockout=0.0%  (50.8s)
+  seed=2 -> Fill Rate=99.7%  Turnover=1.62  Profit=285972  Overstock=9.0%  Stockout=0.7%  (50.7s)
+  seed=3 -> Fill Rate=100.0%  Turnover=1.54  Profit=329579  Overstock=9.3%  Stockout=0.1%  (51.9s)
 
 === (s,S) policy ===
-  seed=42 -> Fill Rate=90.4%  Turnover=5.31  Profit=233104  Overstock=58.3%  Stockout=15.2%  (20.4s)
-  seed=1 -> Fill Rate=90.8%  Turnover=5.93  Profit=264488  Overstock=54.7%  Stockout=16.7%  (20.3s)
-  seed=2 -> Fill Rate=91.0%  Turnover=5.88  Profit=305512  Overstock=55.3%  Stockout=16.7%  (20.3s)
-  seed=3 -> Fill Rate=91.4%  Turnover=5.72  Profit=273878  Overstock=55.9%  Stockout=15.8%  (20.3s)
+  seed=42 -> Fill Rate=90.4%  Turnover=5.31  Profit=233104  Overstock=28.3%  Stockout=15.2%  (20.4s)
+  seed=1 -> Fill Rate=90.8%  Turnover=5.93  Profit=264488  Overstock=24.7%  Stockout=16.7%  (20.3s)
+  seed=2 -> Fill Rate=91.0%  Turnover=5.88  Profit=305512  Overstock=25.3%  Stockout=16.7%  (20.3s)
+  seed=3 -> Fill Rate=91.4%  Turnover=5.72  Profit=273878  Overstock=25.9%  Stockout=15.8%  (20.3s)
 
 === Base-stock policy ===
-  seed=42 -> Fill Rate=95.4%  Turnover=4.61  Profit=244630  Overstock=63.9%  Stockout=9.2%  (20.5s)
-  seed=1 -> Fill Rate=95.6%  Turnover=5.14  Profit=277858  Overstock=59.8%  Stockout=10.4%  (20.5s)
-  seed=2 -> Fill Rate=94.9%  Turnover=4.98  Profit=316049  Overstock=60.9%  Stockout=11.3%  (20.4s)
-  seed=3 -> Fill Rate=95.7%  Turnover=4.90  Profit=285286  Overstock=60.9%  Stockout=9.9%  (20.4s)
+  seed=42 -> Fill Rate=95.4%  Turnover=4.61  Profit=244630  Overstock=33.9%  Stockout=9.2%  (20.5s)
+  seed=1 -> Fill Rate=95.6%  Turnover=5.14  Profit=277858  Overstock=39.8%  Stockout=10.4%  (20.5s)
+  seed=2 -> Fill Rate=94.9%  Turnover=4.98  Profit=316049  Overstock=30.9%  Stockout=11.3%  (20.4s)
+  seed=3 -> Fill Rate=95.7%  Turnover=4.90  Profit=285286  Overstock=30.9%  Stockout=9.9%  (20.4s)
 
 === Single-agent PPO (MAPPO) ===
-  seed=42 -> Fill Rate=99.0%  Turnover=1.65  Profit=275826  Overstock=91.2%  Stockout=1.3%  (59.1s)
-  seed=1 -> Fill Rate=99.4%  Turnover=1.63  Profit=266984  Overstock=91.6%  Stockout=0.8%  (59.4s)
-  seed=2 -> Fill Rate=99.8%  Turnover=1.69  Profit=308181  Overstock=91.8%  Stockout=0.8%  (59.6s)
-  seed=3 -> Fill Rate=99.2%  Turnover=1.70  Profit=307641  Overstock=90.7%  Stockout=1.3%  (59.3s)
+  seed=42 -> Fill Rate=99.0%  Turnover=1.65  Profit=275826  Overstock=77.2%  Stockout=1.3%  (59.1s)
+  seed=1 -> Fill Rate=99.4%  Turnover=1.63  Profit=266984  Overstock=75.6%  Stockout=0.8%  (59.4s)
+  seed=2 -> Fill Rate=99.8%  Turnover=1.69  Profit=308181  Overstock=79.8%  Stockout=0.8%  (59.6s)
+  seed=3 -> Fill Rate=99.2%  Turnover=1.70  Profit=307641  Overstock=79.7%  Stockout=1.3%  (59.3s)
 
 Saved: outputs/table12_baseline_comparison.csv
 Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
